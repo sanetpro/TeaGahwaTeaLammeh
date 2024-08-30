@@ -1,0 +1,35 @@
+body {
+    margin: 10;
+    padding: 0; /* Add this to remove default padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.photo {
+    width: 398.59px; /* Adjust this width to fit your needs */
+    height: 570px; /* Adjust this height to fit your needs */
+    object-fit: cover; /* Add this to make sure the entire image is visible */
+}
+
+.countdown {
+    font-size: 3em;
+    bottom: 10px; /* Adjust this value to position the timer closer to the bottom */
+}
+
+#startButton {
+    font-size: 1em;
+    cursor: pointer; /* Add this to change the cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Add a transition effect for smoother color change */
+}
+
+#startButton.clicked {
+    background-color: green; /* Change this to the desired color when clicked */
+}
